@@ -38,4 +38,4 @@ if (word[4] == char):
     print(char + " found at index 4")
     count += 1
 
-print(str(count) + " instances found of " + char + " found in " + word)
+print(str(count) + " instances of " + char + " found in " + word)
