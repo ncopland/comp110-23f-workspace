@@ -38,4 +38,9 @@ if (word[4] == char):
     print(char + " found at index 4")
     count += 1
 
-print(str(count) + " instances of " + char + " found in " + word)
+if (count == 0):
+    print("No instances of " + char + " found in " + word)
+elif (count == 1):
+    print(str(count) + " instance of " + char + " found in " + word)
+else:
+    print(str(count) + " instances of " + char + " found in " + word)
