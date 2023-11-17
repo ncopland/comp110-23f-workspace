@@ -1,6 +1,6 @@
 """Test cases for the dictionary methods."""
 
-from dictionary import invert, count, favorite_color, alphabetizer, update_attendance
+from exercises.ex06.dictionary import invert, count, favorite_color, alphabetizer, update_attendance
 
 __author__ = "730659660"
 
